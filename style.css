@@ -1,0 +1,31 @@
+
+        	
+body{
+    line-height:25px;
+}
+
+table{
+    margin:0 auto;
+    width:60%;
+}
+
+        
+.error{
+    color:red;
+}
+
+.podsumowanie{
+    vertical-align:top;
+    line-height:60px;
+    font-size:25px;
+    text-align:left;
+    width:65%;
+        }
+
+.podsumowanie span{
+    font-weight:bold;
+    font-size:25px;		
+}
+
+
+		
