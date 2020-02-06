@@ -1,0 +1,94 @@
+<!doctype HTML>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script type="text/javascript" src="script.js"></script>
+				
+	</head>
+	<body>
+	
+	
+	
+	<table>
+		
+	<tr>
+		<td colspan="2">
+			<h1>Formularz aplikacyjny</h1>
+		</td>
+	</tr>
+	<tr>
+		<td>
+		
+			<form>	
+				
+				<b>Imie</b><br>
+				<input type="text" name="name">
+				<span class="error" id="error_name"></span>
+				<br>
+								
+				<b>Nazwisko</b><br>
+				<input type="text" name="sureName">
+				<span class="error" id="error_sureName"></span>
+				<br><br>
+				<b>Miejsce pracy</b><br>
+				<select name="city">
+					<option value="">-- wybierz --</option>
+					<option value="Warszawa">Warszawa</option>
+					<option value="Kraków">Kraków</option>
+					<option value="Katowice">Katowice</option>
+					<option value="Poznań">Poznań</option>
+				</select><br> 
+				<span class="error" id="error_city"></span>
+				<br><br>
+				<b>Znajomość technologii</b> <span class="error" id="error_technology"></span><br>
+				<input type="checkbox" name="tech1" value="JavaScript"> JavaScript <br>
+				<input type="checkbox" name="tech2" value="PHP"> PHP <br>
+				<input type="checkbox" name="tech3" value="SQL"> SQL <br>
+				<input type="checkbox" name="tech4" value="JAVA"> JAVA 
+				<br><br>
+				<b>Aplikowanie na stanowisko</b> <span class="error" id="error_position"></span><br>
+				<input type="radio" name="position" value="Młodszy programista"> Młodszy programista <br>
+				<input type="radio" name="position" value="Stażysta"> Stażysta <br>
+				<input type="radio" name="position" value="Starszy programista"> Starszy programista <br>
+				<input type="radio" name="position" value="Administrator"> Administrator 
+				<br><br>
+				<b>Dodatkowe uwagi</b><br>
+				<textarea placeholder="Twoje uwagi.." name="comments"></textarea>
+				<br><br>
+				<input type="button" value="Wyślij">
+			</form>
+				
+		</td>
+		
+		
+		<td class="podsumowanie">
+			<br>
+			Imię: <span id="name"></span>
+			<br>		
+			Nazwisko: <span id="sureName"></span>
+			<br>
+			Miejsce pracy: <span id="city"></span>
+			<br>
+			Znajomość technologii: <span id="technologies"></span>
+			<br>
+			Aplikowanie na stanowisko: <span id="position"></span>
+			<br>
+			Dodatkowe uwagi: <span id="comments"></span>
+			<br>
+		</td>
+	
+	</tr>
+	</table>
+	
+	
+	
+	
+	
+	</body>
+</html>
+	
+	
+	
+	
+	
